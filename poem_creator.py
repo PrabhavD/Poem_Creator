@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 #Tokenizer
 tokenizer = Tokenizer()
 
-data = open('/irish-lyrics-eof.txt').read()
+data = open('/poem.txt').read()
 
 corpus = data.lower().split("\n")
 
